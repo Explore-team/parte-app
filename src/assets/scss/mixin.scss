@@ -1,0 +1,6 @@
+@mixin grid($grid, $gap){
+    display: grid;
+    display: -ms-grid;
+    grid: $grid;
+    grid-gap: $gap;
+}
